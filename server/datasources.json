@@ -1,0 +1,8 @@
+{
+
+  "db": {
+    "url": "mongodb://harry:string24680@ds033400.mlab.com:33400/newdb",
+    "name": "db",
+    "connector": "loopback-connector-mongodb"
+  }
+}

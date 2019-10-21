@@ -1,0 +1,79 @@
+{
+  "name": "Board",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "company": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "skill": {
+      "type": "string",
+      "required": true
+    },
+    "skill1": {
+      "type": "string",
+      "required": true
+    },
+    "skill2": {
+      "type": "string",
+      "required": true
+    },
+    "skill3": {
+      "type": "string",
+      "required": true
+    },
+    "skill4": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "tags": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "qualification": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "expiresIn": {
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "type": "date",
+      "dataType": "timestamp",
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
