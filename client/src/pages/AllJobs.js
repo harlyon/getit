@@ -16,7 +16,7 @@ class AllJobs extends Component {
     axios.get('http://localhost:9000/api/Boards')
     .then(res => {
       this.setState({ Boards: res.data })
-      console.log(res.data)
+      console.log(res)
     })
     .catch(function(err) {
       console.log(err)
