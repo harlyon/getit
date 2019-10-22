@@ -5,6 +5,7 @@ import Summary from './Summary';
 class Main extends Component {
   render() {
     return (
+      <>
       <div className="container">
         <div className="row space-100">
           <div className="col-lg-7 col-md-12 col-xs-12">
@@ -51,8 +52,9 @@ class Main extends Component {
             </div>
           </div>
         </div>
-        <Summary />
       </div>
+      <Summary />
+      </>
     );
   }
 }
