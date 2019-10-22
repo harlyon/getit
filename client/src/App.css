@@ -712,6 +712,28 @@ footer .menu li a:hover {
   margin-bottom: 10px;
 }
 
+#browse-jobs .text-wrapper {
+  width: 100%;
+  display: table;
+  height: 100%;
+}
+
+#browse-jobs .text-wrapper h3 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+#browse-jobs .text-wrapper p {
+  margin-bottom: 35px;
+}
+
+@media (max-width: 480px) and (min-width: 320px){
+  .section {
+    padding: 60px 0 45px;
+  }
+}
+
 
 /* Header Section */
 
