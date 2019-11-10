@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Image from '../images/index.png'
 import Summary from './Summary';
+import Search from "../components/Search";
 
 class Main extends Component {
   render() {
@@ -13,6 +14,7 @@ class Main extends Component {
               <h2 className="head-title">Find the <br /> job that fits your life</h2>
               <p>Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet. Suspendisse et sapien varius, pellentesque dui non.</p>
               <div className="job-search-form">
+                <Search />
                 {/* <form>
                   <div className="row">
                     <div className="col-lg-5 col-md-5 col-xs-12">
