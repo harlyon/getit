@@ -818,8 +818,8 @@ footer .menu li a:hover {
 }
 
 .job-search-form .button {
-  font-size: 22px;
-  line-height: 14px;
+  /* font-size: 22px; */
+  line-height: 11px;
   display: inline-block;
   position: relative;
   outline: none !important;
