@@ -55,7 +55,6 @@ class AllJobs extends Component {
                           <p className="brand">{item.company}</p>
                           <div className="tags">
                             <span><i className="lni-map-marker"></i>{item.location}</span>
-                            {/* <span><i className="lni-user"></i>{item}</span> */}
                           </div>
                           <span className="full-time">{item.type}</span>
                         </div>
