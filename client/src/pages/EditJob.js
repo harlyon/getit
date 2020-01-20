@@ -148,124 +148,136 @@ class EditJob extends Component {
                   </div>
                   <div className="form-group">
                     <label className="control-label">Type <span>(optional)</span></label>
-                    <input type="text"
-                            name="type"
-                            className="form-control"
-                            placeholder="e.g.Full Time, Part Time, Contract"
-                            value={this.state.type}
-                            onChange={this.onChange}
-                             />
+                    <input
+                      type="text"
+                      name="type"
+                      className="form-control"
+                      placeholder="e.g.Full Time, Part Time, Contract"
+                      value={this.state.type}
+                      onChange={this.onChange}
+                    />
                   </div>
                   <div className="form-group">
                     <label className="control-label">Category</label>
-                    <input type="text"
-                            name="category"
-                            className="form-control"
-                            placeholder="e.g.IT,Finance,Administration"
-                            value={this.state.category}
-                            onChange={this.onChange}
-                            />
+                    <input
+                      type="text"
+                      name="category"
+                      className="form-control"
+                      placeholder="e.g.IT,Finance,Administration"
+                      value={this.state.category}
+                      onChange={this.onChange}
+                    />
                   </div>
                   <div className="form-group">
                     <label className="control-label">Qualification</label>
-                    <input type="text"
-                            name="qualification"
-                            className="form-control"
-                            placeholder="e.g.Diploma,Bachelors,Certificate"
-                            value={this.state.qualification}
-                            onChange={this.onChange}
-                            />
+                    <input
+                      type="text"
+                      name="qualification"
+                      className="form-control"
+                      placeholder="e.g.Diploma,Bachelors,Certificate"
+                      value={this.state.qualification}
+                      onChange={this.onChange}
+                      />
                   </div>
                   <div className="form-group">
                     <label className="control-label">Skill</label>
-                    <input type="text"
-                            name="skill"
-                            className="form-control"
-                            // placeholder="e.g.IT,Finance,Administration"
-                            value={this.state.skill}
-                            onChange={this.onChange}
-                           />
+                    <input
+                      type="text"
+                      name="skill"
+                      className="form-control"
+                      // placeholder="e.g.IT,Finance,Administration"
+                      value={this.state.skill}
+                      onChange={this.onChange}
+                    />
                   </div>
                   <div className="form-group">
                     <label className="control-label">Skill1</label>
-                    <input type="text"
-                            name="skill1"
-                            className="form-control"
-                            // placeholder="e.g.IT,Finance,Administration"
-                            value={this.state.skill1}
-                            onChange={this.onChange}
-                           />
+                    <input
+                      type="text"
+                      name="skill1"
+                      className="form-control"
+                      // placeholder="e.g.IT,Finance,Administration"
+                      value={this.state.skill1}
+                      onChange={this.onChange}
+                    />
                   </div>
                   <div className="form-group">
                     <label className="control-label">Skill2</label>
-                    <input type="text"
-                            name="skill2"
-                            className="form-control"
-                            // placeholder="e.g.IT,Finance,Administration"
-                            value={this.state.skill2}
-                            onChange={this.onChange}
-                           />
+                    <input
+                      type="text"
+                      name="skill2"
+                      className="form-control"
+                      // placeholder="e.g.IT,Finance,Administration"
+                      value={this.state.skill2}
+                      onChange={this.onChange}
+                    />
                   </div>
                   <div className="form-group">
                     <label className="control-label">Skill3</label>
-                    <input type="text"
-                            name="skill3"
-                            className="form-control"
-                            // placeholder="e.g.IT,Finance,Administration"
-                            value={this.state.skill3}
-                            onChange={this.onChange}
-                           />
+                    <input
+                      type="text"
+                      name="skill3"
+                      className="form-control"
+                      // placeholder="e.g.IT,Finance,Administration"
+                      value={this.state.skill3}
+                      onChange={this.onChange}
+                    />
                   </div>
                   <div className="form-group">
                     <label className="control-label">Skill4</label>
-                    <input type="text"
-                            name="skill4"
-                            className="form-control"
-                            // placeholder="e.g.IT,Finance,Administration"
-                            value={this.state.skill4}
-                            onChange={this.onChange}
-                           />
+                    <input
+                      type="text"
+                      name="skill4"
+                      className="form-control"
+                      // placeholder="e.g.IT,Finance,Administration"
+                      value={this.state.skill4}
+                      onChange={this.onChange}
+                    />
                   </div>
                   <div className="form-group">
                     <label className="control-label">Job Tags <span>(optional)</span></label>
-                    <input type="text"
-                            name="tags"
-                            className="form-control"
-                            placeholder="e.g.PHP,Social Media,Management"
-                            value={this.state.tags}
-                            onChange={this.onChange}
-                            />
+                    <input
+                      type="text"
+                      name="tags"
+                      className="form-control"
+                      placeholder="e.g.PHP,Social Media,Management"
+                      value={this.state.tags}
+                      onChange={this.onChange}
+                    />
                     <p className="note">Comma separate tags, such as required skills or technologies, for this job.</p>
                   </div>
                   <div className="form-group">
                     <label className="control-label">Description</label>
                   </div>
-                    <textarea name="description"
-                              type="text"
-                              value={this.state.description}
-                              onChange={this.onChange}
-                              cols="90"
-                              rows="10">
+                    <textarea
+                      name="description"
+                      type="text"
+                      value={this.state.description}
+                      onChange={this.onChange}
+                      cols="90"
+                      rows="10">
                     </textarea>
                   <div className="form-group">
                     <label className="control-label">Application email / URL</label>
-                    <input type="text"
-                            name="email"
-                            className="form-control"
-                            placeholder="Enter an email address or website URL"
-                            value={this.state.email}
-                            onChange={this.onChange}
-                            />
+                    <input
+                      type="text"
+                      name="email"
+                      className="form-control"
+                      placeholder="Enter an email address or website URL"
+                      value={this.state.email}
+                      onChange={this.onChange}
+                    />
                   </div>
                   <div className="form-group">
                     <label className="control-label">Closing Date <span>(optional)</span></label>
-                    <input type="text"
-                            name="expiresIn"
-                            className="form-control"
-                            placeholder="yyyy-mm-dd"
-                            value={this.state.expiresIn}
-                            onChange={this.onChange}
-                            />
+                    <input
+                      type="text"
+                      name="expiresIn"
+                      className="form-control"
+                      placeholder="yyyy-mm-dd"
+                      value={this.state.expiresIn}
+                      onChange={this.onChange}
+                    />
                   </div>
                   {/* <div className="divider">
                     <h3 className="job-title">Company Details</h3>

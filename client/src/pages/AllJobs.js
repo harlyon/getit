@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import Search from '../components/Search';
 
 class AllJobs extends Component {
   state= {
@@ -38,7 +39,14 @@ class AllJobs extends Component {
             </div>
           </div>
         </div>
-        <br /><br />
+        <br />
+        <div class="container">
+          <div class="row">
+            <div className="job-search-form">
+              <Search />
+            </div>
+          </div>
+        </div>
         <section className="section" id="featured">
         <div className="container">
           <div className="row">
@@ -65,7 +73,7 @@ class AllJobs extends Component {
                 )
               })
             }
-             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
             </div>
           </div>
       </section>
